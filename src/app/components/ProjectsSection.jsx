@@ -7,20 +7,20 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "React Portfolio Website",
-    description: "Project 1 description",
+    title: "e-commerce web app",
+    description: "this is a simple e-commerce webapp",
     image: "/images/projects/1.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
+    gitUrl: "https://e-commerce-devnabibia.vercel.app/",
     previewUrl: "/",
   },
   {
     id: 2,
-    title: "Potography Portfolio Website",
-    description: "Project 2 description",
+    title: "Housify project",
+    description: "This is a real estate projet that is used for house hunting",
     image: "/images/projects/2.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
+    gitUrl: "https://houssify.vercel.app/",
     previewUrl: "/",
   },
   {
@@ -52,7 +52,7 @@ const projectsData = [
   },
   {
     id: 6,
-    title: "Full-stack Roadmap",
+    title: "Crud Application",
     description: "Project 5 description",
     image: "/images/projects/6.png",
     tag: ["All", "Web"],

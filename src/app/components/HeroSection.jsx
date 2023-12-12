@@ -22,13 +22,13 @@ const HeroSection = () => {
             <br></br>
             <TypeAnimation
               sequence={[
-                "Judy",
+                "devnabibia",
                 1000,
-                "Web Developer",
+                "Full stack developer",
                 1000,
                 "Mobile Developer",
                 1000,
-                "UI/UX Designer",
+                "Software engineer",
                 1000,
               ]}
               wrapper="span"
@@ -37,8 +37,8 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-            voluptuous.
+          Hi, I Am Dennis Nangendo Full Stack Developer With Proven Experience In Helping Companies Create And Maintain A Better Code Base For Reusability. 
+          Capable Of Continuous Learning From Senior Developers While Still Nurturing Junior Developers..
           </p>
           <div>
             <Link

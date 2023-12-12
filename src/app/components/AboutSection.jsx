@@ -15,6 +15,8 @@ const TAB_DATA = [
         <li>Sequelize</li>
         <li>JavaScript</li>
         <li>React</li>
+        <li>python</li>
+        <li>Flask</li>
       </ul>
     ),
   },
@@ -23,8 +25,8 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Fullstack Academy of Code</li>
-        <li>University of California, Santa Cruz</li>
+        <li>ALX software engineering-Holberton</li>
+        <li>Rongo University- computer science</li>
       </ul>
     ),
   },
