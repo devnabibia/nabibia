@@ -40,6 +40,18 @@ const TAB_DATA = [
       </ul>
     ),
   },
+  {
+    title: "experience",
+    id: "experience",
+    content: (
+      <ul className="list-disc pl-2">
+        <li>Full Stack Intern at Safaricom limited company</li>
+        <li>Junior Full-Stack Developer-open relay</li>
+        <li>Java Developer Intern-DevCareer</li>
+        <li>Research Intern- county government of uasin gishu</li>
+      </ul>
+    ),
+  },
 ];
 
 const AboutSection = () => {
@@ -87,6 +99,13 @@ const AboutSection = () => {
             >
               {" "}
               Certifications{" "}
+            </TabButton>
+            <TabButton
+              selectTab={() => handleTabChange("experience")}
+              active={tab === "experience"}
+            >
+              {" "}
+              Experience{" "}
             </TabButton>
           </div>
           <div className="mt-8">
